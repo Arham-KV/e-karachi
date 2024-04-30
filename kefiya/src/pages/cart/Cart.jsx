@@ -155,11 +155,7 @@ function Cart() {
         }
         // cartItem.forEach(item => deleteCart(item));
 
-        dispatch(clearCart()); // Dispatch clearCart action to empty the cart after payment
 
-        setTimeout(() => {
-            cartItem.forEach(item => deleteCart(item));
-        }, 1000);
 
     }
     return (
